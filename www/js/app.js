@@ -1,3 +1,9 @@
+//var ionicio = require('ionic-platform-web-client');
+//console.log('ionicio is ', ionicio);
+
+console.log('Ionic Platform is ', Ionic);
+Ionic.io();
+
 angular.module('starter', ['ionic'])
 
     .run(function ($ionicPlatform) {

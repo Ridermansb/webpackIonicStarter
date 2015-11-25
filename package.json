@@ -4,7 +4,8 @@
   "description": "> Sample usage of webpack with Ionic project",
   "main": "index.js",
   "scripts": {
-    "start": "node_modules/.bin/ionic serve"
+    "start": "node_modules/.bin/ionic serve",
+    "bundle": "node_modules/.bin/webpack"
   },
   "repository": {
     "type": "git",
@@ -21,11 +22,12 @@
     "cordova": "^5.4.1",
     "gulp-util": "^2.2.14",
     "ionic": "^1.7.10",
-    "ionic-platform-web-client": "^0.2.1",
     "shelljs": "^0.3.0"
   },
   "devDependencies": {
-    "bower": "^1.6.6"
+    "angular-webpack-plugin": "0.0.3",
+    "exports-loader": "^0.6.2",
+    "webpack": "^1.12.9"
   },
   "cordovaPlugins": [],
   "cordovaPlatforms": [
