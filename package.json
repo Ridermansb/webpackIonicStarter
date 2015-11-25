@@ -1,0 +1,36 @@
+{
+  "name": "webpackionicstarter",
+  "version": "1.0.0",
+  "description": "> Sample usage of webpack with Ionic project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ridermansb/webpackIonicStarter.git"
+  },
+  "author": "ridermansb <ridermansb@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ridermansb/webpackIonicStarter/issues"
+  },
+  "homepage": "https://github.com/Ridermansb/webpackIonicStarter#readme",
+  "dependencies": {
+    "cordova": "^5.4.1",
+    "ionic": "^1.7.10"
+    "bower": "^1.3.3",
+    "gulp-util": "^2.2.14",
+    "shelljs": "^0.3.0"
+  }
+  "devDependencies": {
+    "bower": "^1.6.6"
+  },
+  "cordovaPlugins": [],
+  "cordovaPlatforms": [
+    {
+      "platform": "android",
+      "locator": "browser"
+    }
+  ]
+}
